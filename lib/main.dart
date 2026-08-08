@@ -13,11 +13,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.red,
         appBar: AppBar(
           backgroundColor: Colors.blue,
           title: Center(child: Text("DICEE")),
-
-
+        ),
+        body: Row(
+          children: [
+            Image.asset("images/dice1.png")
+          ],
         ),
       ),
     );
