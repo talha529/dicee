@@ -18,10 +18,23 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue,
           title: Center(child: Text("DICEE")),
         ),
-        body: Row(
-          children: [
-            Image.asset("images/dice1.png")
-          ],
+        body: Center(
+          child: Row(
+            children: [
+              Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image.asset("images/dice1.png" ),
+                  )
+              ),
+              Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image.asset("images/dice1.png" ),
+                  )
+              )
+            ],
+          ),
         ),
       ),
     );
