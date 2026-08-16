@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Image.asset("images/dice1.png" ),
+
                   )
               )
             ],
